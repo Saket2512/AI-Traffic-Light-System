@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Data & outputs (optional – keep if needed)
+videos/
+data/*.csv
+data/*.json
+
+# Model files (optional – large files)
+*.pt
+*.onnx
+
+# IDE / OS
+.idea/
+.vSCode/
+.DS_Store
+Thumbs.db
+
+# SUMO temp files
+*.xml~
+*.net.xml~
+
